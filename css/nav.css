@@ -1,0 +1,27 @@
+@import url("imports/fonts.sass");
+@import url("imports/imports.sass");
+nav {
+  width: 100%; }
+  nav ul {
+    width: 550px; }
+    nav ul li {
+      display: inline-block;
+      list-style: none;
+      margin-right: 25px;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      font-weight: bold; }
+
+.nav-right, .nav-left {
+  display: inline-block; }
+
+.nav-right .inp-pesquisar {
+  border-radius: 10px;
+  position: relative; }
+  .nav-right .inp-pesquisar::before {
+    border-style: solid;
+    border-width: 10px;
+    content: "Ola";
+    left: 0;
+    position: absolute;
+    top: -10px; }
