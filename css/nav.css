@@ -1,27 +1,112 @@
-@import url("imports/fonts.sass");
-@import url("imports/imports.sass");
-nav {
+@charset "UTF-8";
+/* Mixin do bot├úo gelatina */
+/*keyframe */
+@media screen and (max-width: 425px) {
+  .menu ul li:not(.inpPesquisar) {
+    display: none;
+    justify-content: flex-start; }
+
+  .menu-Icon {
+    display: inline-block !important; }
+
+  .menu {
+    width: 100% !important; }
+    .menu li, .menu input {
+      width: 90%; } }
+.container-nav {
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
   width: 100%; }
-  nav ul {
-    width: 550px; }
-    nav ul li {
-      display: inline-block;
+  .container-nav .menu {
+    width: 74%;
+    margin: 0 auto; }
+    .container-nav .menu ul {
       list-style: none;
-      margin-right: 25px;
-      font-family: "Open Sans", sans-serif;
-      text-transform: uppercase;
-      font-weight: bold; }
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      webkit-flex-flow: row wrap;
+      justify-content: space-between;
+      flex-wrap: flex-wrap;
+      align-items: center; }
+      .container-nav .menu ul li {
+        position: relative; }
+        .container-nav .menu ul li a {
+          text-decoration: none;
+          color: #0e0e0e; }
+        .container-nav .menu ul li i {
+          position: absolute;
+          cursor: pointer;
+          left: 8px;
+          top: 5px;
+          -webkit-transition: 0.2s linear;
+          transition: 0.2s linear; }
+          .container-nav .menu ul li i:hover {
+            -ms-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
+        .container-nav .menu ul li input {
+          border-radius: 8px;
+          height: 25px;
+          padding-left: 30px; }
+  .container-nav .menu-Icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    margin-left: 25px; }
+    .container-nav .menu-Icon:active {
+      -webkit-transition-timing-function: step-end;
+      -moz-transition-timing-function: step-end;
+      -o-transition-timing-function: step-end;
+      transition-timing-function: step-end;
+      -webkit-animation: gelatine 0.1s 1;
+      -moz-animation: gelatine 0.1s 1;
+      -o-animation: gelatine 0.1s 1;
+      animation: gelatine 0.1s 1; }
 
-.nav-right, .nav-left {
-  display: inline-block; }
+.menu-side {
+  width: 30%;
+  position: absolute;
+  left: -35%;
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s; }
+  .menu-side ul {
+    margin-left: -40px !important;
+    width: 100%;
+    list-style: none; }
+    .menu-side ul li {
+      background-color: #0e0e0e;
+      background-image: -webkit-gradient(linear, 0deg, from(#8a7ea6), to(#0e0e0e));
+      background-image: -webkit-linear-gradient(0deg, #8a7ea6, #0e0e0e);
+      background-image: -moz-linear-gradient(0deg, #8a7ea6, #0e0e0e);
+      background-image: -ms-linear-gradient(0deg, #8a7ea6, #0e0e0e);
+      background-image: -o-linear-gradient(0deg, #8a7ea6, #0e0e0e);
+      background-image: linear-gradient(0deg, #8a7ea6, #0e0e0e);
+      margin-top: 2px;
+      padding: 1px 0px 1px 15px;
+      width: 100%; }
+      .menu-side ul li a {
+        font-size: 0.8em;
+        text-transform: uppercase;
+        color: #fff;
+        text-decoration: none; }
 
-.nav-right .inp-pesquisar {
-  border-radius: 10px;
-  position: relative; }
-  .nav-right .inp-pesquisar::before {
-    border-style: solid;
-    border-width: 10px;
-    content: "Ola";
-    left: 0;
-    position: absolute;
-    top: -10px; }
+@-webkit-keyframes gelatine {
+  from,to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1); }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9); }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05); } }
