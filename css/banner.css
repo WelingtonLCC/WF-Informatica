@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* Mixin do bot├úo gelatina */
+/*keyframe */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800");
+img {
+  max-width: 100%; }
+
+@media screen and (max-width: 425px) {
+  .banner {
+    flex-direction: column !important; }
+    .banner .logo {
+      width: 50%;
+      margin-top: 18%; }
+    .banner .apresentacao {
+      font-size: 0.8em; } }
+@media screen and (max-width: 768px) {
+  .banner .apresentacao {
+    font-size: 0.7em; }
+
+  .device {
+    display: none; } }
+.banner {
+  width: 100%;
+  height: 300px;
+  background-image: url("/WFInformatica/images/fundo.png");
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+  flex-wrap: flex-wrap;
+  align-items: center; }
+  .banner .logo {
+    margin-left: 10%; }
+  .banner .apresentacao {
+    text-align: center;
+    font-family: "Open Sans";
+    width: 400px;
+    margin-left: 2%; }
+    .banner .apresentacao i {
+      margin-right: 2%; }
+  .banner .device {
+    width: 30%;
+    margin-left: 15%; }

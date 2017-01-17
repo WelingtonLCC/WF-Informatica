@@ -1,7 +1,9 @@
 $(document).ready(function(){
-	$(".menu-Icon").toggle(function(){
-		$(".menu-side").css("left", "0px")
-		$(".container-nav").css("margin-left" , "30%")
+	$(".menu-Icon").click(function(){
+		$(".menu-side").toggleClass("menu-icon-right");
+		$(".container-nav").toggleClass("menu-side-right");
+		$(".menu .menu-Icon").toggleClass("fa-plus-square").toggleClass("fa-window-close");
+
 
 	})
 });

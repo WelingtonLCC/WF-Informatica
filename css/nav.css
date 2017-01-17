@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* Mixin do bot├úo gelatina */
 /*keyframe */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800");
 @media screen and (max-width: 425px) {
   .menu ul li:not(.inpPesquisar) {
     display: none;
@@ -13,6 +14,10 @@
     width: 100% !important; }
     .menu li, .menu input {
       width: 90%; } }
+@media screen and (max-width: 768px) {
+  .menu {
+    width: 100% !important;
+    font-size: 0.6em; } }
 .container-nav {
   -webkit-transition-duration: 2s;
   -moz-transition-duration: 2s;
@@ -37,7 +42,11 @@
         position: relative; }
         .container-nav .menu ul li a {
           text-decoration: none;
-          color: #0e0e0e; }
+          color: #0e0e0e;
+          font-size: 0.7em; }
+          .container-nav .menu ul li a h3 {
+            font-family: "Open Sans", sans-serif;
+            text-transform: uppercase; }
         .container-nav .menu ul li i {
           position: absolute;
           cursor: pointer;
@@ -89,13 +98,19 @@
       background-image: -o-linear-gradient(0deg, #8a7ea6, #0e0e0e);
       background-image: linear-gradient(0deg, #8a7ea6, #0e0e0e);
       margin-top: 2px;
-      padding: 1px 0px 1px 15px;
+      padding: 9px 0px 1px 10px;
       width: 100%; }
       .menu-side ul li a {
         font-size: 0.8em;
         text-transform: uppercase;
         color: #fff;
         text-decoration: none; }
+
+.menu-icon-right {
+  left: 0px; }
+
+.menu-side-right {
+  margin-left: 27%; }
 
 @-webkit-keyframes gelatine {
   from,to {
