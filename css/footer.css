@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* Mixin do bot├úo gelatina */
+/*keyframe */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800");
+.footer {
+  width: 77%;
+  margin: 0 auto;
+  height: 500px;
+  border: 1px solid; }
+  .footer address {
+    color: #8a7ea6;
+    font-weight: 800; }

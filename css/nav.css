@@ -59,7 +59,8 @@
             -webkit-transform: scale(1.2);
             transform: scale(1.2); }
         .container-nav .menu ul li input {
-          border-radius: 8px;
+          background: #bebebe;
+          border-radius: 25px;
           height: 25px;
           padding-left: 30px; }
   .container-nav .menu-Icon {

@@ -5,7 +5,7 @@ var imagemin = require('gulp-imagemin');
 var livereload = require('gulp-livereload');
 
 //Var de configuração de pasta para reload
-var html = './componentes/nav.php';
+var html = './index.php';
 var javaScript = 'jquery/*.js';
 var css = 'sass/*.sass';
 

@@ -19,7 +19,9 @@
         		
         	
         	<div class="main-index"></div>
-        	<div class="footer-index"></div>
+        	<div class="footer-index">
+                <?php include 'componentes/footer.php'; ?>
+            </div>
     	</div>
     </body>
 </html>

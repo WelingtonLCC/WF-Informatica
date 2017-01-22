@@ -4,6 +4,9 @@
 	        <link rel="stylesheet" href="/WFInformatica/css/banner.css">
 	    </head>
 	    <body>
+	    	<div class="banner-fundo">
+	    		
+	    	</div>
 	        <div class="banner">
 	        	<div class="logo">
 	        		<img src="/WFInformatica/images/lohgo.png" alt="">
@@ -18,7 +21,19 @@
 	        	<div class="device">
 	        		<img src="/WFInformatica/images/divices.png" alt="Aparelhos Eletronicos">
 	        	</div>
+	        	
 	        </div>
+        	<div class="marcas">
+        		<img src="/WFInformatica/images/acer.png" alt="Acer">
+        		<img src="/WFInformatica/images/amd.png" alt="AMD">
+        		<img src="/WFInformatica/images/asus.png" alt="Asus">
+        		<img src="/WFInformatica/images/hp.png" alt="HP">
+        		<img src="/WFInformatica/images/intel.png" alt="Intel">
+        		<img src="/WFInformatica/images/nvidia.png" alt="NVidia">
+        		<img src="/WFInformatica/images/positivo.png" alt="Positivo">
+        		<img src="/WFInformatica/images/samsung.png" alt="Samsung">
+        		<img src="/WFInformatica/images/sonyvaio.png" alt="Sony Vaio">
+        	</div>
 	        
 	    </body>
 	</html>	
