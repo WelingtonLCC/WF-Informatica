@@ -2,11 +2,125 @@
 /* Mixin do bot├úo gelatina */
 /*keyframe */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800");
+@media screen and (max-width: 425px) {
+  .cartao {
+    font-size: 1.2em !important; }
+
+  .redes div {
+    width: 50px !important;
+    height: 50px !important; }
+    .redes div .mapa {
+      font-size: 2em !important;
+      left: 30% !important;
+      top: 15% !important; }
+    .redes div .face {
+      font-size: 1.8em !important;
+      left: 30% !important;
+      top: 22% !important; }
+    .redes div .twiter {
+      font-size: 2em !important;
+      left: 20% !important;
+      top: 15% !important; }
+    .redes div .gplus {
+      font-size: 1.5em !important;
+      left: 24% !important;
+      top: 22% !important; }
+
+  .footer-servicos div {
+    width: 100% !important;
+    border-top: 2px solid #bebebe;
+    border-bottom: 2px solid gray;
+    margin-top: -4px !important; } }
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 85% !important; } }
 .footer {
   width: 77%;
-  margin: 0 auto;
-  height: 500px;
-  border: 1px solid; }
+  margin: 0 auto; }
   .footer address {
     color: #8a7ea6;
+    font-size: 0.8em;
     font-weight: 800; }
+  .footer .bandeiras {
+    margin-top: 10px;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    webkit-flex-flow: row wrap;
+    justify-content: flex-start;
+    flex-wrap: flex-wrap;
+    align-items: flex-start; }
+    .footer .bandeiras .cartao {
+      width: 50%;
+      font-size: 2em; }
+      .footer .bandeiras .cartao div {
+        display: inline-block; }
+    .footer .bandeiras .redes {
+      width: 50%; }
+      .footer .bandeiras .redes div {
+        background: #0e0e0e;
+        border-radius: 30px;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        margin-right: 4%;
+        float: right; }
+        .footer .bandeiras .redes div i {
+          position: absolute;
+          color: #fff; }
+        .footer .bandeiras .redes div .mapa {
+          font-size: 3em;
+          left: 25%;
+          top: 10%; }
+        .footer .bandeiras .redes div .face {
+          font-size: 2.5em;
+          left: 27%;
+          top: 16%; }
+        .footer .bandeiras .redes div .twiter {
+          font-size: 2.5em;
+          left: 21%;
+          top: 16%; }
+        .footer .bandeiras .redes div .gplus {
+          left: 18%;
+          top: 22%; }
+    .footer .bandeiras i {
+      font-size: 2em; }
+  .footer .footer-servicos {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%; }
+    .footer .footer-servicos div {
+      border-left: 1px solid #bebebe;
+      border-right: 1px solid gray;
+      margin: 5px auto;
+      width: 245px;
+      background: #D4D4D4; }
+    .footer .footer-servicos .painel h4 {
+      text-align: center;
+      text-transform: uppercase; }
+    .footer .footer-servicos .painel li {
+      text-decoration: underline;
+      margin-top: 2px; }
+
+.clear {
+  clear: both; }
+
+.adrees {
+  width: 100%;
+  background: #0e0e0e;
+  padding: 0.1%; }
+  .adrees p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-align: center;
+    font-family: "Open Sans"; }
