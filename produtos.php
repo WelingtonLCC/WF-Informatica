@@ -7,7 +7,6 @@
         <title>Manutenção de micro, notebooks, celulares, tablets, impressoras, sistemas de segurança, cercas eletricas e mauitos mais em Santa Barbara D'Oeste WF Informatica</title>
         <link rel="stylesheet" href="css/layout.css">
         <link rel="stylesheet" href="/WFInformatica/bower_components/normalize-css/normalize.css">
-        
     </head>
     <body>
     	<div class="container">
@@ -17,9 +16,9 @@
     		<div class="nav-index">
     			<?php include 'componentes/nav.php'; ?>
         	</div>
-        	<div class="main-index">
-                <?php include 'componentes/main-index.php'; ?>
-            </div>
+        		
+        	
+        	<div class="main-index"></div>
         	<div class="footer-index">
                 <?php include 'componentes/footer.php'; ?>
             </div>

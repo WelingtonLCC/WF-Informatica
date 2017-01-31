@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Mixin do bot├úo gelatina */
+/*keyframe */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800");
+@media screen and (max-width: 425px) {
+  .container-main {
+    width: 100% !important;
+    margin: 100px auto; }
+    .container-main .article {
+      width: 100% !important; }
+    .container-main .empresa {
+      margin-top: 35px; } }
+@media screen and (max-width: 768px) {
+  .container-main {
+    width: 90% !important;
+    margin: 100px auto; }
+    .container-main .article {
+      width: 100% !important; }
+    .container-main .empresa {
+      width: 95% !important;
+      margin-top: 35px; } }
+@media screen and (min-width: 769px) {
+  .container-main {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; } }
+.container-main {
+  width: 77%;
+  margin: 100px auto; }
+  .container-main .article {
+    width: 45%; }
+  .container-main .empresa {
+    padding: 2%;
+    text-align: justify;
+    margin-left: 2%; }
+    .container-main .empresa h3 {
+      font-size: 1.5em;
+      text-transform: uppercase;
+      margin-top: -3%; }
+    .container-main .empresa a {
+      float: right; }

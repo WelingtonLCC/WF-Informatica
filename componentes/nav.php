@@ -11,21 +11,21 @@
     <body>
         <div class="menu-side">
             <ul>
-                <li><a href="#"><h3>Home</h3></a></li>
-                <li><a href="#"><h3>Contato</h3></a></li>
-                <li><a href="#"><h3>Empresa</h3></a></li>
-                <li><a href="#"><h3>Produtos</h3></a></li>
-                <li><a href="#"><h3>Serviços</h3></a></li>
+                <li><a href="/WFInformatica/index.php"><h3>Home</h3></a></li>
+                <li><a href="/WFInformatica/contato.php"><h3>Contato</h3></a></li>
+                <li><a href="/WFInformatica/empresa.php"><h3>Empresa</h3></a></li>
+                <li><a href="/WFInformatica/produtos.php"><h3>Produtos</h3></a></li>
+                <li><a href="/WFInformatica/servicos.php"><h3>Serviços</h3></a></li>
             </ul>
         </div>
         <div class="container-nav">
             <div class="menu">
                 <ul>
-                    <li><a href="#"><h3>Home</h3></a></li>
-                    <li><a href="#"><h3>Contato</h3></a></li>
-                    <li><a href="#"><h3>Empresa</h3></a></li>
-                    <li><a href="#"><h3>Produtos</h3></a></li>
-                    <li><a href="#"><h3>Serviços</h3></a></li>
+                    <li><a href="/WFInformatica/index.php"><h3>Home</h3></a></li>
+                    <li><a href="/WFInformatica/contato.php"><h3>Contato</h3></a></li>
+                    <li><a href="/WFInformatica/empresa.php"><h3>Empresa</h3></a></li>
+                    <li><a href="/WFInformatica/produtos.php"><h3>Produtos</h3></a></li>
+                    <li><a href="/WFInformatica/servicos.php"><h3>Serviços</h3></a></li>
                     <li class="inpPesquisar">
                         <i class="fa fa-search" aria-hidden="true"></i>
                         <input value="" type="text" name="pesquisar" placeholder="Search...">

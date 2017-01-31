@@ -97,7 +97,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 100%; }
+    width: 99%; }
     .footer .footer-servicos div {
       border-left: 1px solid #bebebe;
       border-right: 1px solid gray;
@@ -117,7 +117,7 @@
 .adrees {
   width: 100%;
   background: #0e0e0e;
-  padding: 0.1%; }
+  padding: 0.1% 0 0.1% 0; }
   .adrees p {
     color: white;
     text-transform: uppercase;
